@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: teal;
+  }
+
+  h1 {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  header, main, footer {
+    width: 100%;
+    max-width: 75rem;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  #tableSection {
+    float: left;
+    width: calc(100% - 14rem);
+    padding: 2rem;
+    height: fit-content;
+  }
+
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px;
+  }
+
+  th,
+  td {
+    padding: .5em;
+    border: solid 1px lightgray;    
+  }
+
+  #formContainer {
+    float: right;
+    width: 12rem;
+    padding: 2rem;
+  }
+
+  label,
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  button {
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    background-color: greenyellow;
+    border: none;
+    cursor: pointer;
+  }
+  
